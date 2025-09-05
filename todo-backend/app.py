@@ -6,9 +6,8 @@ import datetime
 import os
 
 app = Flask(__name__)
-CORS(app)  # 允许跨域请求
+CORS(app)
 
-# 配置数据库
 DATABASE = 'database.db'
 
 # 初始化数据库
